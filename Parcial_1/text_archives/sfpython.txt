@@ -1,0 +1,28 @@
+digit a => (13)
+digit b => (1124.00012)
+
+bool x => 0
+bool y => 1
+
+// Esto es un comentario
+
+text hw => /Hola, mundo!/
+
+digit num_test => (1) mas (3)
+
+sH(num_test) ----> 4
+
+digit num_testi => (6) menos (3)
+
+digit num_mult => (1) mult (3)
+
+
+SI | num_testi =eq= num_mult | (
+    PARA|5|(
+       sH(hw)
+    )
+    text success_t => /Bien hecho/
+    camBIO(success_t)
+) O (
+    endALL()
+)
